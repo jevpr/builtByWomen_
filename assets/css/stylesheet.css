@@ -30,6 +30,8 @@ body {
   padding-top: 4rem;
   background-color: #47857c;
   padding-bottom: 0.4rem;
+  font-size: 1.5rem;
+  display: none;
 }
 
 a {
@@ -45,10 +47,19 @@ a {
 }
 
 .one {
-  height: 0.225rem;
+  height: 0.25rem;
 }
 
 #menuImg {
   transform: rotate(0deg);
   transition: transform 1s;
+}
+
+.ease-in-top {
+  transition: transform 1s ease-in;
+  transform: translateY(0);
+}
+
+.ease-in-top.start {
+  transform: translateY(-100%);
 }
