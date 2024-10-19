@@ -4,36 +4,70 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="assets/css/stylesheet.css" />
-    <title>womenInTech_</title>
+    <title>buildByWomen_</title>
   </head>
+
+
   <body>
     <header>
       <nav class="navBar">
         <img id="menuImg" class="menuImg" src="assets/images/updatedMenu.png" />
         <div class="logo">
-          <p>womenInTech_</p>
+          <p>builtByWomen_</p>
         </div>
       </nav>
+
+
       <div class="dropDown" id="dropDown">
-        <a>About</a>
+       <div class="item"><i class="fa-solid fa-gears"></i><a>About</a><i class="icon fa-solid fa-chevron-right"></i></div>
         <div class="divider"></div>
-        <a>History of women in tech</a>
+        <div class="item"><i class="fa-solid fa-person-dress-burst"></i><a>Built by women</i></a><i id="arrowTwo" class="icon fa-solid fa-chevron-right"></i></div>
         <div class="divider"></div>
-        <a>Women in ...</a>
-        <div class="divider one"></div>
-        <a>Contact</a>
+        <div id="builtByDropd">
+        <div class="item"><i class="fa-solid fa-person-dress-burst"></i><a>Ada Lovelace</a><i class="subicon fa-solid fa-chevron-right"></i></div>
+        <div class="divider"></div>
+        <div class="item"><i class="fa-solid fa-person-dress-burst"></i><a>Person Two</a><i class="subicon fa-solid fa-chevron-right"></i></div>
+        <div class="divider"></div>
+        <div class="item"><i class="fa-solid fa-person-dress-burst"></i><a>Person Three</a><i class="subicon fa-solid fa-chevron-right"></i></div>
+       </div>
+        <div class="divider" id="hiddenDiv"></div>
+        <div class="item"><i class="fa-solid fa-keyboard"></i><a>Contact</a><i class="icon fa-solid fa-chevron-right"></i></div>
       </div>
+
     </header>
     <main>
-      <div class="tagline">
-        <p>
-          Hello and welcome to
-          <span style="font-style: italic">womenInTech_</span>, a site dedicated
-          to celebrating the history of women in the field of technical science
-          and I.T.
+      <section id="welcomingMessage">
+        <div>
+        <p id="messageOne" class="welcomingMessage">
+          Hello and welcome&#128075 to
+          <span style="font-style: italic">builtByWomen_</span>, a site
+          celebrating the history of women in the field of technology &#128187&#128077
         </p>
-      </div>
+        </div>
+         <div>
+        <p id="messageTwo" class="welcomingMessage">
+          Keep scrolling to find out more about the history of women in technology &#128513;&#128513;
+        </p>
+        </div>
+      </section>
+      <section id="timeline">
+        <div class="person">
+        <div class="person-image">
+          <img id="ada" src="/assets/images/Ada3.jpeg">
+        </div>
+        </div>
+         <div class="person">
+        <div class="person-image">
+          <img id="ada" src="/assets/images/Ada3.jpeg">
+        </div>
+        </div>
+         <div class="person">
+        <div class="person-image">
+          <img id="ada" src="/assets/images/Ada3.jpeg">
+        </div>
+      </section>
     </main>
   </body>
   <script src="assets/javascript/script.js"></script>
+  <script src="https://kit.fontawesome.com/d764441fbc.js" crossorigin="anonymous"></script>
 </html>

@@ -1,5 +1,6 @@
 :root {
   --lavender: #d6e0ff;
+  --lavender-lighter: #ebf0ff;
   --periwinkle: #bbbbf2;
   --citron: #c8c841;
   --moonstone: #6db8c5;
@@ -12,6 +13,7 @@
   --viridian-darkest: #0e1a18;
 }
 
+/*GENERAL STYLES*/
 body {
   background-color: var(--moonstone);
   margin: 0;
@@ -19,12 +21,15 @@ body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-.header {
+/*HEADER and NAV*/
+
+header {
   position: fixed;
+  width: 100%;
+  top: 0;
 }
 
 .navBar {
-  position: sticky;
   background-color: var(--periwinkle);
   width: 100%;
   height: 4rem;
@@ -41,16 +46,48 @@ body {
   background-color: var(--viridian);
   padding-bottom: 0.4rem;
   font-size: 1.5rem;
-  color: var(--viridian-darkest);
+  color: var(--lavender);
   margin: 0;
-  display: none;
+  display: flex;
+  flex-direction: column;
   border-bottom-right-radius: 1rem;
   border-bottom-left-radius: 1rem;
+  width: 100vw;
+  display: none;
+}
+
+#builtByDropd {
+  background-color: var(--citron);
+  margin: 1rem;
+  border-radius: 1rem;
+  color: var(--viridian);
+  display: none;
+}
+
+#hiddenDiv {
+  display: none;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+}
+
+.icon {
+  margin-left: auto;
+  margin-right: 1.5rem;
+}
+
+.subicon {
+  margin-left: auto;
+  margin-right: 0.5rem;
 }
 
 a {
   display: inline-block;
-  padding: 1rem 0 0.5rem 1rem;
+  padding: 1rem 0 0.5rem 0.5rem;
 }
 
 .divider {
@@ -75,19 +112,65 @@ div.logo {
   margin: none;
 }
 
-div.tagline {
+/*MAIN CONTENT*/
+
+/*OPNING TAGLINE*/
+
+section#welcomingMessage {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 100%;
+}
+
+#messageOne {
+  margin-top: 5rem;
+}
+
+.welcomingMessage {
   background-color: var(--viridian-lighter);
   padding: 0.3rem;
-  margin: 1rem;
+  margin: 0.5rem 1rem;
   border-radius: 1rem 1rem 0rem 1rem;
   box-shadow: 5px 5px var(--viridian);
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: x-large;
-  color: var(--viridian-darker);
+  color: var(--lavender-lighter);
+  max-width: 70rem;
+  padding: 2rem;
 }
 
-div.tagline p {
-  padding: 0 2rem;
+/*Timeline*/
+#timeline {
+  display: flex;
+  flex-direction: column;
+}
+
+.person {
+  margin: 0 20px;
+}
+
+.person:nth-child(odd) {
+  align-self: flex-start;
+}
+
+.person:nth-child(even) {
+  align-self: flex-end;
+}
+
+.person-image {
+  background-color: var(--citron);
+  height: 11rem;
+  width: 11rem;
+  border-radius: 50%;
+}
+
+#ada {
+  border-radius: 50%;
+  height: 10rem;
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
 }
 
 /*Media Queries*/
