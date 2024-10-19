@@ -124,10 +124,6 @@ section#welcomingMessage {
   width: 100%;
 }
 
-#messageOne {
-  margin-top: 5rem;
-}
-
 .welcomingMessage {
   background-color: var(--viridian-lighter);
   padding: 0.3rem;
@@ -141,10 +137,15 @@ section#welcomingMessage {
   padding: 2rem;
 }
 
+#messageOne {
+  margin-top: 5rem;
+}
+
 /*Timeline*/
 #timeline {
   display: flex;
   flex-direction: column;
+  margin-top: 3rem;
 }
 
 .person {
