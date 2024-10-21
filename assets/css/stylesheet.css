@@ -21,7 +21,11 @@ body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-/*HEADER and NAV*/
+::-webkit-scrollbar {
+  display: none;
+}
+
+/*HEADER*/
 
 header {
   position: fixed;
@@ -42,11 +46,23 @@ header {
   margin-left: 0.75rem;
 }
 
+p.logo {
+  margin-left: 0.25em;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  color: var(--viridian);
+  font-size: xx-large;
+  padding: none;
+  margin: 0;
+}
+
+/*Main dropdown*/
+
 .dropDown {
   background-color: var(--viridian);
   padding-bottom: 0.4rem;
   font-size: 1.5rem;
-  color: var(--lavender);
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -56,38 +72,23 @@ header {
   display: none;
 }
 
-#builtByDropd {
-  background-color: var(--citron);
-  margin: 1rem;
-  border-radius: 1rem;
-  color: var(--viridian);
-  display: none;
-}
-
-#hiddenDiv {
-  display: none;
+.icon {
+  /*right hand side arrow*/
+  margin-left: auto;
+  margin-right: 1.5rem;
 }
 
 .item {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.5rem 1rem;
+  padding: 1rem 1rem;
+  text-decoration: none;
 }
 
-.icon {
-  margin-left: auto;
-  margin-right: 1.5rem;
-}
-
-.subicon {
-  margin-left: auto;
-  margin-right: 0.5rem;
-}
-
-a {
-  display: inline-block;
-  padding: 1rem 0 0.5rem 0.5rem;
+p.menuText {
+  padding-left: 0.5rem;
+  margin: 0;
 }
 
 .divider {
@@ -97,19 +98,31 @@ a {
   border-radius: 0.2rem;
 }
 
-.one {
-  height: 0.25rem;
+a.dark {
+  color: var(--lavender);
 }
 
-div.logo {
-  margin-left: 0.25em;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-weight: bold;
-  font-style: italic;
+/*Nested drop down*/
+
+div#builtByDropd {
+  background-color: var(--citron);
+  margin: 1rem;
+  border-radius: 1rem;
+  display: none;
+}
+
+#hiddenDiv {
+  display: none;
+}
+
+.subicon {
+  /*Right hand side sub icons*/
+  margin-left: auto;
+  margin-right: 0.5rem;
+}
+
+a.light {
   color: var(--viridian);
-  font-size: xx-large;
-  padding: none;
-  margin: none;
 }
 
 /*MAIN CONTENT*/

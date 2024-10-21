@@ -18,24 +18,24 @@ function revealMenu() {
   }
 }
 
-const arrows = document.querySelectorAll("#arrowTwo");
+const arrow = document.querySelector("#arrowTwo");
 const subMenu = document.getElementById("builtByDropd");
 const hiddenDiv = document.getElementById("hiddenDiv");
+const builtByWomenLink = document.getElementById("builtByWomen");
 
-arrows.forEach((arrow) => {
-  arrow.addEventListener("click", () => {
-    if (arrow.style.transform === "rotate(90deg)") {
-      arrow.style.transform = "rotate(0deg)";
-      setTimeout(() => {
-        subMenu.style.display = "none";
-        hiddenDiv.style.display = "none";
-      }, 200);
-    } else {
-      arrow.style.transform = "rotate(90deg)";
-      setTimeout(() => {
-        subMenu.style.display = "block";
-        hiddenDiv.style.display = "block";
-      }, 200);
-    }
-  });
+builtByWomenLink.addEventListener("click", (event) => {
+  event.preventDefault();
+  if (arrow.style.transform === "rotate(90deg)") {
+    arrow.style.transform = "rotate(0deg)";
+    setTimeout(() => {
+      subMenu.style.display = "none";
+      hiddenDiv.style.display = "none";
+    }, 200);
+  } else {
+    arrow.style.transform = "rotate(90deg)";
+    setTimeout(() => {
+      subMenu.style.display = "block";
+      hiddenDiv.style.display = "block";
+    }, 200);
+  }
 });
