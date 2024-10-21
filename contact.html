@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/stylesheet.css" />
+    <title>builtByWomen_</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navBar">
+        <img id="menuImg" class="menuImg" src="assets/images/updatedMenu.png" />
+        <div class="logo">
+          <a class="logo" href="index.html">builtByWomen_</a>
+        </div>
+      </nav>
+      <div class="dropDown" id="dropDown">
+        <a class="item dark" href="about.html"
+          ><i class="fa-solid fa-gears"></i>
+          <p class="menuText">About</p>
+          <i class="icon fa-solid fa-chevron-right"></i
+        ></a>
+        <div class="divider"></div>
+        <a id="builtByWomen" class="item dark"
+          ><i class="fa-solid fa-person-dress-burst"></i>
+          <p class="menuText">Built by women</p>
+          <i id="arrowTwo" class="icon fa-solid fa-chevron-right"></i
+        ></a>
+        <div class="divider"></div>
+        <div id="builtByDropd">
+          <a class="item light" href="lovelace.html"
+            ><i class="fa-solid fa-person-dress-burst"></i>
+            <p class="menuText">Ada Lovelace</p>
+            <i class="subicon fa-solid fa-chevron-right"></i
+          ></a>
+          <div class="divider"></div>
+          <a class="item light" href="person2.html"
+            ><i class="fa-solid fa-person-dress-burst"></i>
+            <p class="menuText">Person Two</p>
+            <i class="subicon fa-solid fa-chevron-right"></i
+          ></a>
+          <div class="divider"></div>
+          <a class="item light" href="person3.html"
+            ><i class="fa-solid fa-person-dress-burst"></i>
+            <p class="menuText">Person Three</p>
+            <i class="subicon fa-solid fa-chevron-right"></i
+          ></a>
+        </div>
+        <div class="divider" id="hiddenDiv"></div>
+        <a class="item dark" href="contact.html"
+          ><i class="fa-solid fa-keyboard"></i>
+          <p class="menuText">Contact</p>
+          <i class="icon fa-solid fa-chevron-right"></i
+        ></a>
+      </div>
+    </header>
+    <main class="mainBody">
+      <section class="generalSection">
+        <h1><i class="fa-solid fa-keyboard"></i> Contact</h1>
+        <div class="paragraphs">
+          <p>
+            If you'd like to get in contact with us here at
+            <em>builtByWomen_</em> please use the form below!
+          </p>
+        </div>
+        <form
+          method="post"
+          action="https://formdump.codeinstitute.net"
+          id="contact-form"
+        >
+          <div class="form-group">
+            <label for="first-name" required>First name:</label>
+            <input
+              type="text"
+              id="first-name"
+              name="first-name"
+              placeholder="Sam"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="sambloggs@email.com"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Your message here"
+              class="message-input"
+              required
+            ></textarea>
+          </div>
+          <div class="form-group">
+            <button type="submit" class="submit">Submit</button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>© Jasmine Price 2024</p>
+    </footer>
+  </body>
+  <script src="assets/javascript/script.js"></script>
+  <script
+    src="https://kit.fontawesome.com/d764441fbc.js"
+    crossorigin="anonymous"
+  ></script>
+</html>
