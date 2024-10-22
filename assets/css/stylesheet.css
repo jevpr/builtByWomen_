@@ -450,8 +450,76 @@ button:active {
 
 /*Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-  body {
-  }
+
+  #timeline {
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem;
+  margin-top: 0rem;
+  border: solid blue 2px;
+}
+
+.person {
+  border: solid white 2px;;
+  width: 55.7%;
+  display: flex;
+  align-items: center;
+  margin:0;
+  padding: 0;
+}
+
+img.timelineImage {
+  width: 20%;
+  height: 50%;
+  border: solid blue 2px;
+}
+
+.person:nth-child(odd) {
+  align-self: flex-end;
+}
+
+.person:nth-child(even) {
+  align-self: flex-start; /* Align even children to the end */
+}
+
+.person:nth-child(even) img.timelineImage {
+  order: 2; /* Move image to appear second */
+}
+
+.person:nth-child(even) div.timelineText {
+  order: 1; /* Move text to appear first */
+}
+
+
+div.timelineText {
+  background-color: var(--moonstone-lightest);
+  padding: 0.75rem;
+  border-radius: 2rem;
+  margin: 0;
+}
+
+p.bold {
+  font-weight: bold;
+  font-size: large;
+  background-color: var(--citron);
+  padding: 0.5rem;
+  border-radius: 1rem;
+  border: solid var(--citron-darker) 0.2rem;
+}
+
+p.timelineBody {
+  background-color: var(--lavender-lighter);
+  margin-top: 0.5rem;
+  border: solid var(--lavender) 0.2rem;
+  border-radius: 1rem;
+  font-size: 1.25rem;
+  padding: 0.5rem;
+}
+
+img.timelineArrow {
+  height: 4rem;
+  order: 3;
+  display: none;
 }
 
 /*Large devices (laptops and desktops, 992px and up) */
