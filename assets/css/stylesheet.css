@@ -26,10 +26,17 @@
 body {
   background-color: var(--moonstone);
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 5rem;
+  height: 100vh;
 }
 
 ::-webkit-scrollbar {
   display: none;
+}
+
+/*To avoid overlap with the footer at the bottom*/
+.spacer {
+  height: 4rem;
 }
 
 /*HEADER*/
@@ -163,11 +170,6 @@ section#welcomingMessage {
   padding: 2rem;
 }
 
-.mainBody {
-  margin-top: 5rem;
-  height: 100vh;
-}
-
 /*Timeline*/
 #timeline {
   display: flex;
@@ -180,6 +182,12 @@ section#welcomingMessage {
   display: flex;
   align-items: center;
   margin: 1rem 0;
+}
+
+.final {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .person:nth-child(odd) {
@@ -201,6 +209,11 @@ section#welcomingMessage {
 img.timelineImage {
   height: 7rem;
   border-radius: 50%;
+}
+
+img.finalTimelineImage {
+  border-radius: 50%;
+  height: 7rem;
 }
 
 div.timelineText {
@@ -244,16 +257,21 @@ footer {
   bottom: 0;
   width: 100vw;
   padding: 1rem;
+  height: 3rem;
 }
 
 /*General Layout for secondary pages*/
 
+section.generalLayout {
+  display: flex;
+}
+
 section.generalSection {
-  margin: 0 0.5rem;
+  margin: 1rem 1rem;
   padding: 0rem 0;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
 }
 
 section.generalSection > h1 {
@@ -276,8 +294,10 @@ div.paragraphs {
   border-radius: 2rem;
   box-shadow: 5px 5px var(--viridian);
   padding: 0.5rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
   color: var(--viridian-darker);
+  display: flex;
+  flex-direction: column;
 }
 
 section.generalSection > div > p {
@@ -297,7 +317,19 @@ section.generalSection > div > p {
   z-index: 98;
 }
 
-.arrow {
+a.link {
+  background-color: var(--citron);
+  text-decoration: none;
+  color: var(--viridian-darkest);
+  padding: 0.5rem 2rem;
+  align-self: center;
+  border-radius: 2rem;
+  border: solid var(--citron-darkest) 0.2rem;
+  text-align: center;
+  margin: 1dvh 0;
+}
+
+a.linkTwo .arrow {
   height: 8rem;
   z-index: 0;
 }
@@ -378,8 +410,38 @@ button:active {
 }
 
 /*Media Queries*/
+@media screen and (max-width: 576px) {
+  /*About and Contact General Style*/
 
-@media screen and (max-width: 450px) {
+  .generalLayout {
+    flex-direction: column;
+  }
+
+  /*Contact*/
+  label {
+    text-align: left;
+    width: 50vw;
+    justify-self: flex-start;
+  }
+
+  input {
+    grid-column: 1;
+    height: 3rem;
+    width: 80vw;
+  }
+
+  textarea {
+    grid-column: 1;
+    width: 80vw;
+  }
+
+  button {
+    justify-self: flex-end;
+    margin: 0.25rem;
+    padding: 0.5rem 1rem;
+  }
+
+  /*Timeline*/
   #timeline {
     display: flex; /* Ensure timeline is still a flex container */
     flex-direction: column; /* Stack items in a column */
@@ -410,34 +472,13 @@ button:active {
   }
 }
 
-@media screen and (max-width: 576px) {
-  /*About*/
-  label {
-    text-align: left;
-    width: 50vw;
-    justify-self: flex-start;
-  }
-
-  input {
-    grid-column: 1;
-    height: 3rem;
-    width: 80vw;
-  }
-
-  textarea {
-    grid-column: 1;
-    width: 80vw;
-  }
-
-  button {
-    justify-self: flex-end;
-    margin: 0.25rem;
-    padding: 0.5rem 1rem;
-  }
-}
-
 /*Media query: large or landscape phones (576px and up) */
-@media screen and (min-width: 576px) {
+@media screen and (max-width: 949px) {
+  /*General*/
+  .generalLayout {
+    flex-direction: column;
+  }
+
   /*Contact*/
 
   label {
@@ -457,13 +498,16 @@ button:active {
 
   .person {
     width: 60%;
-    margin: 1rem 0;
   }
 
   img.timelineImage {
-  width: 33.3333%;
-  height: auto;
-  border: solid var(--moonstone) 10px;
+    width: 33.3333%;
+    height: auto;
+  }
+
+  img.finalTimelineImage {
+    width: 20vw;
+    height: auto;
   }
 
   div.timelineText {
@@ -472,27 +516,27 @@ button:active {
   }
 
   .person:nth-child(odd) {
-  align-self: flex-end;
-}
-
-.person:nth-child(even) {
-  align-self: flex-start; /* Align even children to the end */
-}
-
-.person:nth-child(even) img.timelineImage {
-  order: 2; /* Move image to appear second */
-}
-
-.person:nth-child(even) div.timelineText {
-  order: 1; /* Move text to appear first */
-}
-
-}
-
-  /*Large devices (laptops and desktops, 992px and up) */
-  @media screen and (min-width: 992px) {
+    align-self: flex-end;
   }
 
-  @media screen and (min-width: 1200px) {
+  .person:nth-child(even) {
+    align-self: flex-start; /* Align even children to the end */
   }
+
+  .person:nth-child(even) img.timelineImage {
+    order: 2; /* Move image to appear second */
+  }
+
+  .person:nth-child(even) div.timelineText {
+    order: 1; /* Move text to appear first */
+  }
+
+  /*About*/
+}
+
+/*Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+}
+
+@media screen and (min-width: 1200px) {
 }
