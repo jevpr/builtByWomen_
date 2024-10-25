@@ -4,14 +4,18 @@ Website Url: [https://jevpr.github.io/Project-1/](https://jevpr.github.io/Projec
 
 ## Table of Contents
 
-> 1. [Project Outline](#project-outline)
+1. [Project Outline](#project-outline)
 
 - [Purpose](#purpose)
-  > 2. [Design](#design)
+
+2. [Design](#design)
+
 - [Name](#name)
 - [Colour Palette](#colour-palette)
 - [Balsamiq Wireframes](#balsamiq-wireframes)
-  > 3. [Finished Project](#finished-project)
+
+3. [Finished Project](#finished-project)
+
 - [Responsive](#responsivity)
 - [Browser Friendly](#browser-friendly)
 
