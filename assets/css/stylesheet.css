@@ -149,7 +149,7 @@ a.light {
 /*Landing Page*/
 /*OPNING TAGLINE*/
 
-section#welcomingMessage {
+section.welcomingMessage {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -157,7 +157,7 @@ section#welcomingMessage {
   width: 100%;
 }
 
-.welcomingMessage {
+p.welcomingMessage {
   background-color: var(--viridian-lighter);
   padding: 0.3rem;
   margin: 0rem 1rem 1rem 1rem;
@@ -175,6 +175,7 @@ h1.about {
 }
 
 /*Landing Animations*/
+
 #messageOne {
   opacity: 0;
   transform: translateY(50px);
