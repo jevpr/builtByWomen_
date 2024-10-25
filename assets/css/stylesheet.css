@@ -170,6 +170,62 @@ section#welcomingMessage {
   padding: 2rem;
 }
 
+h1.about {
+  text-align: center;
+}
+
+/*Landing Animations*/
+#messageOne {
+  opacity: 0;
+  transform: translateY(50px);
+  animation: riseBump 2s forwards;
+}
+
+#messageTwo {
+  opacity: 0;
+  transform: translateY(50px);
+  animation: riseBump 2s forwards;
+  animation-delay: 1.95s;
+}
+
+@keyframes riseBump {
+  0% {
+    transform: translateY(50px);
+  }
+
+  70% {
+    transform: translateY(0px);
+  }
+
+  90% {
+    transform: translateY(10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animation {
+  margin-top: 2rem;
+  opacity: 0;
+  transform: translateY(50px);
+  animation: rise 2s forwards;
+  animation-delay: 5s;
+}
+
+@keyframes rise {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 /*Profile Overview*/
 
 .overview {
