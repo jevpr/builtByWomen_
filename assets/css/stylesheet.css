@@ -374,9 +374,11 @@ a.linkTwo {
 .lifespan {
   background-color: var(--citron);
   border-radius: 50%;
-  height: 8rem;
-  width: 8rem;
-  text-align: center;
+  font-size: x-large;
+  max-width: 50%;
+  padding: 8% 6%;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
 }
 
 div.lifespan > p {
@@ -586,6 +588,11 @@ footer {
   }
 
   /*Timeline*/
+
+  .lifespan {
+    font-size: xx-large;
+  }
+
   .person {
     display: flex;
     flex-direction: row;
@@ -632,6 +639,11 @@ footer {
 
 @media (min-width: 993px) {
   /*Timeline*/
+
+  .lifespan {
+    font-size: 2.5rem;
+  }
+
   #timeline {
     margin: 0;
   }

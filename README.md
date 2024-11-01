@@ -4,9 +4,10 @@ Website Url: [https://jevpr.github.io/Project-1/](https://jevpr.github.io/Projec
 
 ## Table of Contents
 
-1. [Project Outline](#project-outline)
+1. [Project Overview](#project-overview)
 
 - [Purpose](#purpose)
+- [Audience](#audience)
 
 2. [Design](#design)
 
@@ -14,12 +15,14 @@ Website Url: [https://jevpr.github.io/Project-1/](https://jevpr.github.io/Projec
 - [Colour Palette](#colour-palette)
 - [Balsamiq Wireframes](#balsamiq-wireframes)
 
-3. [Finished Project](#finished-project)
+3. [Features](#features)
+
+4. [Finished Project](#finished-project)
 
 - [Responsive](#responsivity)
 - [Browser Friendly](#browser-friendly)
 
-## Project Outline
+## Project Overview
 
 ### Purpose:
 
@@ -33,10 +36,11 @@ My target audience was younger users, ideally girls 8 years +. As a result:
 
 - The site needed an <em>accessible style</em> that would be appropriate for younger users. I took inspiration from the [BBC Bitesize website](https://www.bbc.co.uk/bitesize/topics/zx24xg8/articles/zprj7ty#zhrkjfr) layouts and [CGP Revision books](https://www.theworks.co.uk/dw/image/v2/BDXF_PRD/on/demandware.static/-/Sites-master-catalog-tws-uk/default/dwb3e29f89/9781782945598_1_Z.jpg?sw=400&sh=400&sm=fit).
 - Content on the page needed to be kept <em>short</em>, to keep younger audiences engaged.
-- Layout and formatting needed to be <em>fun and playful</em>.
-
-<br>
-<br>
+- Layout, colours, and formatting needed to be <em>fun and playful</em>.
+  <br>
+  builtByWomen\_ was designed to celebrate women programmers, developers, and builders in tech - like Ada Lovelace - with the hope to encourage future generations of women to feel more at home in the industry.
+  <br>
+  <br>
 
 ## Design
 
@@ -60,7 +64,32 @@ The following picture shows my initial mobile-first website design:
 
 ![An overview of the website's initial layout - with mobile sized pages for landing page, navigation bar, timeline and 'under construction' page](<assets/images/readmeimages/Balsamiq overview.png>)
 
-### Features of the Final Design
+<br>
+<br>
+
+## Features
+
+### Navigation Bar
+
+The navigation bar is a drop down, fixed to the top of the screen so it's always available to help users navigate the site. The logo in the top left hand corner has been animated using JavaScript, so that it turns like a dial to reveal the menu. This design is playful and meant to recreate the feeling of physical mechanisms.
+
+In future updates, I will play with having this logo in the top right hand corner - so it's more accesible for mobile users.
+
+### Landing Page
+
+The Landing page uses animation to engage the reader as soon as they visit the site. The two messages that pop up at the top of the screen (emulating WhatsApp messages), were designed to appeal to younger (Digital Native) users.
+
+Below these two initial messages, you can see an overview of the websites profile pages. This section has been made responsive for difference screen sizes using Flexbox.
+
+### Profiles
+
+This was the most challenging page to make resopnsive, as it features a timeline detailing the history of each profilee.
+
+#### Timeline
+
+### About and Contact
+
+### Features Left to Implement
 
 ## Finished Project
 
