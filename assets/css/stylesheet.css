@@ -298,9 +298,9 @@ section.generalSection {
   display: flex;
   flex-direction: column;
   padding: 0rem 0;
-  align-items: left;
   flex-grow: 1;
 }
+
 .column {
   display: flex;
   flex-direction: column;
