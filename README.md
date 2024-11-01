@@ -32,6 +32,13 @@ Website Url: [https://jevpr.github.io/Project-1/](https://jevpr.github.io/Projec
 - [Validator Testing](#validator-testing)
 - [Unfixed Bugs](#unfixed-bugs)
 
+### 5. [GitHub and Deployment](#github-and-deployment)
+
+### 6. [Credits](#credits)
+
+- [Media](#media)
+- [Content](#content)
+
 ## Project Overview
 
 ### Purpose:
@@ -83,17 +90,25 @@ The following picture shows my initial mobile-first website design:
 
 The navigation bar is a drop down, fixed to the top of the screen so it's always available to help users navigate the site. The logo in the top left hand corner has been animated using JavaScript, so that it turns like a dial to reveal the menu. This design is playful and meant to recreate the feeling of physical mechanisms.
 
+![Navigation Bar dropdown](<assets/images/readmeimages/Navigation Bar Dropdown.png>)
+![Nestled Navigation Bar dropdown](<assets/images/readmeimages/Nested Dropdown.png>)
+
 ### Landing Page
 
 The Landing page uses animation to engage the reader as soon as they visit the site. The two messages that pop up at the top of the screen (emulating WhatsApp messages), were designed to appeal to younger (Digital Native) users.
 
 Below these two initial messages, you can see an overview of the websites profile pages. This section has been made responsive for difference screen sizes using Flexbox.
 
+![Landing Page responsive](<assets/images/readmeimages/Landing Page.png>)
+
 ### Profiles
 
 This was the most challenging page to make resopnsive, as it features a timeline detailing the history of each profilee.
 
 For each type of screen: mobile, tablet, laptop and desktop, the timeline morphs to take on a different layout. This as done using flexbox.
+
+![Profile pages responsive](assets/images/readmeimages/Profile.png)
+![Timeline pages responsive](assets/images/readmeimages/Timeline.png)
 
 ### About and Contact
 
@@ -103,9 +118,14 @@ The 'About' page gives users information about the website's creation. Calls to 
 
 The 'Contact' page features a submission form, and internal links to direct users to other parts of the site. Within the form, users can get in contact with the site developers.
 
+![About page responsive](assets/images/readmeimages/About.png)
+![Contact page responsive](assets/images/readmeimages/Contact.png)
+
 ### Under Construction
 
 There is an under construction layout for profiles that are still being developed.
+
+![under construction page](<assets/images/readmeimages/Under Construction.png>)
 
 ### Features Left to Implement
 
@@ -149,7 +169,7 @@ No errors were found when passing through the official validator - [W3C CSS Vali
 
 This project has no unfixed bugs.
 
-## GiHub and Deployment
+## GitHub and Deployment
 
 This website was linked with GitHub by <em>initalizing a respository</em> via Visual Studio Code. This created a new responsitory on my GitHub, where I could commit and sync changes I made on my local computer.
 
@@ -163,7 +183,7 @@ git config --global user.name "your-github-name"
 git config --global user.email "your-email"
 ```
 
-I deployed the website using GitHub's in built deployment featured, accessed through Settings > Pages for my Project 1 Respository.
+I deployed the website using GitHub's in-built deployment feature, accessed through Settings > Pages for my Project 1 Respository.
 
 Live Link: [https://jevpr.github.io/Project-1/](https://jevpr.github.io/Project-1/)
 
@@ -171,18 +191,17 @@ Live Link: [https://jevpr.github.io/Project-1/](https://jevpr.github.io/Project-
 
 ### Media
 
-- I created the Logo image in Microsoft Paint.
-- Images of Ada Lovelace, Katherine Johnson, and Radia Perlman are public and were taken from WidiMedia Commons:
-  <br>
-  <em>Ada Lovelace</em>: [Here](https://commons.wikimedia.org/wiki/File:Ada_Lovelace_in_1852.jpg)
-  <br>
-  <em>Katherine Johnson</em>: [Here](https://commons.wikimedia.org/wiki/File:Katherine_Johnson_1983.jpg)
-  <br>
-  <em>Radia Perlman</em>: [Here](https://commons.wikimedia.org/wiki/File:Radia_Perlman.png)
+- I created the Logo image and timeline arrow in Microsoft Paint.
+- Timeline Images were screenshots of icons from [Font Awesome](https://kit.fontawesome.com/d764441fbc.js).
+- Images of Ada Lovelace, Katherine Johnson, and Radia Perlman are public and were taken from WikiMedia Commons:
+
+  - <em>Ada Lovelace</em>: [Here](https://commons.wikimedia.org/wiki/File:Ada_Lovelace_in_1852.jpg)
+  - <em>Katherine Johnson</em>: [Here](https://commons.wikimedia.org/wiki/File:Katherine_Johnson_1983.jpg)
+  - <em>Radia Perlman</em>: [Here](https://commons.wikimedia.org/wiki/File:Radia_Perlman.png)
 
 ### Content
 
-- Written on the Landing, About, Contact and construction pags is my own.
+- Written content on the Landing, About, Contact, and construction pages is my own.
 - Written content on Ada Lovelace's profile was adapted and composed from the following sources:
 
 1. [Ada: A Life and Legacy, Dorothy Stein](https://monoskop.org/images/e/e7/Stein_Dorothy_Ada_A_Life_and_a_Legacy.pdf)
@@ -192,3 +211,5 @@ Live Link: [https://jevpr.github.io/Project-1/](https://jevpr.github.io/Project-
 5. [Ada Lovelace, findingada.com](https://findingada.com/about/who-was-ada/)
 6. [Untangling the Tale of Ada Lovelace, Stephen Wolfram](https://writings.stephenwolfram.com/2015/12/untangling-the-tale-of-ada-lovelace/)
 7. [Ada Lovelace: King, Countess, Genius, Nottingham City of Literature](https://nottinghamcityofliterature.com/blog/ada-lovelace-king-countess-genius/)
+
+### [Back to the top.](#builtbywomen_)
