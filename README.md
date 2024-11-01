@@ -71,7 +71,7 @@ So, I chose the following color palette using the [coolors.co](https://coolors.c
 
 ![The website's colour palette- purple, green, blue](<assets/images/readmeimages/Colour Scheme One.png>)
 
-The shade and brightness of each colour was chosen to ensure a range of brightness and hue. That way, the palette was more accesible.
+The shade and brightness of each colour was chosen to ensure a range of brightness and hue. That way, the palette was more accessible for different users.
 
 ![Picture showing colour palette accesibility for users with Acromatopsia](<assets/images/readmeimages/Color Palette Accessibility .png>)
 
