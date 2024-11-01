@@ -137,6 +137,8 @@ Under construction: I would like to create a random fact generator for the under
 
 ## Testing
 
+The project was tested by several users, to ensure all features work as intended. The site has proven easy to use, and is straightforward for those wanting to learn more about the history of women in tech.
+
 ### Responsive
 
 The website is fully responsive for phones, tablets, laptops and desktops. Here, I have tested out the site's responsivity via <em>Am I responsive?</em> website:
