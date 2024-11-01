@@ -43,6 +43,8 @@ Website Url: [https://jevpr.github.io/Project-1/](https://jevpr.github.io/Projec
 
 ### Purpose:
 
+<em>builtByWomen\_</em> was designed to celebrate women programmers, developers, and builders in tech - like Ada Lovelace - with the hope to encourage future generations of women to feel more at home in the industry.
+
 The purpose of this project was to create an informative, easy-to-use website that detailed the history of women in technology.
 
 I wanted the site to look professional, be clear and informative, but also be fun to use.
@@ -54,26 +56,24 @@ My target audience was younger users, ideally girls 8 years +. As a result:
 - The site needed an <em>accessible style</em> that would be appropriate for younger users. I took inspiration from the [BBC Bitesize website](https://www.bbc.co.uk/bitesize/topics/zx24xg8/articles/zprj7ty#zhrkjfr) layouts and [CGP Revision books](https://www.theworks.co.uk/dw/image/v2/BDXF_PRD/on/demandware.static/-/Sites-master-catalog-tws-uk/default/dwb3e29f89/9781782945598_1_Z.jpg?sw=400&sh=400&sm=fit).
 - Content on the page needed to be kept <em>short</em>, to keep younger audiences engaged.
 - Layout, colours, and formatting needed to be <em>fun and playful</em>.
-  <br>
-  builtByWomen\_ was designed to celebrate women programmers, developers, and builders in tech - like Ada Lovelace - with the hope to encourage future generations of women to feel more at home in the industry.
-  <br>
-  <br>
 
 ## Design
 
 ### Name
 
-The initial working name for the site was 'womenInTech\_', but this always had to change because that site already exists. I wanted a name which emphasized the roles women played as founders and innovaters. So rather than 'women <b>in</b> tech,' I chose 'built <b>by</b> women'.
+The initial working name for the site was 'womenInTech\_', but this always had to change because that site already exists. I wanted a name which emphasized the roles women played as founders and innovaters. So rather than 'women <b>in</b> tech,' I chose '<b>built by</b> women'.
 
 ### Colour Palette
 
-When considering color palette, I wanted to choose something that had a feminine feel to it. I wanted something a bit playful, that wasn't overly corporate. However, I wanted to avoid stereotypically 'feminine' colors like pink.
+When considering color palettes, I wanted to choose something that had a feminine feel to it. I wanted something a bit playful, that wasn't overly corporate. However, I wanted to avoid stereotypically 'feminine' colors like pink.
 
 So, I chose the following color palette using the [coolors.co](https://coolors.co/) website.
 
 ![The website's colour palette- purple, green, blue](<assets/images/readmeimages/Colour Scheme One.png>)
 
-> To do: COLOR PALETTE ACCESSIBILITY
+The shade and brightness of each colour was chosen to ensure a range of brightness and hue. That way, the palette was more accesible.
+
+![Picture showing colour palette accesibility for users with Acromatopsia](<assets/images/readmeimages/Color Palette Accessibility .png>)
 
 ### Balsamiq Wireframes
 
@@ -97,7 +97,7 @@ The navigation bar is a drop down, fixed to the top of the screen so it's always
 
 The Landing page uses animation to engage the reader as soon as they visit the site. The two messages that pop up at the top of the screen (emulating WhatsApp messages), were designed to appeal to younger (Digital Native) users.
 
-Below these two initial messages, you can see an overview of the websites profile pages. This section has been made responsive for difference screen sizes using Flexbox.
+Below these two initial messages, you can see an overview of the website's profile pages. This section has been made responsive for difference screen sizes using Flexbox.
 
 ![Landing Page responsive](<assets/images/readmeimages/Landing Page.png>)
 
@@ -105,16 +105,16 @@ Below these two initial messages, you can see an overview of the websites profil
 
 This was the most challenging page to make resopnsive, as it features a timeline detailing the history of each profilee.
 
-For each type of screen: mobile, tablet, laptop and desktop, the timeline morphs to take on a different layout. This as done using flexbox.
+For each type of screen: mobile, tablet, laptop and desktop, the timeline morphs to take on a different layout. This was done using flexbox.
 
 ![Profile pages responsive](assets/images/readmeimages/Profile.png)
 ![Timeline pages responsive](assets/images/readmeimages/Timeline.png)
 
 ### About and Contact
 
-The About and Contact pages both take on a similar masonry layout for larger screne sizes, or a columnar layout for mobile.
+The About and Contact pages both take on a similar masonry layout for larger screen sizes, or a columnar layout for mobile.
 
-The 'About' page gives users information about the website's creation. Calls to action are present throughout to keep the page engaging, and text blocks are kept short and spaced. There are internal links to direct users to other parts of the site.
+The 'About' page gives users information about the website's creation. Calls to Action are present throughout to keep the page engaging, and text blocks are kept short and spaced. There are internal links to direct users to other parts of the site.
 
 The 'Contact' page features a submission form, and internal links to direct users to other parts of the site. Within the form, users can get in contact with the site developers.
 
@@ -127,13 +127,13 @@ There is an under construction layout for profiles that are still being develope
 
 ![under construction page](<assets/images/readmeimages/Under Construction.png>)
 
-### Features Left to Implement
+## Features Left to Implement
 
-Nav Bar: In future updates, I will play with having the logo in the top right hand corner - so it's more accesible for mobile users.
+<b>Nav Bar edits:</b> In future updates, I will play with having the logo in the top right hand corner - so it's more accesible for mobile users.
 
-Form: I would like the form to also take story submissions from users, so they can share their experiences. These submissions would then be posted on a Forum page on the website.
+<b>Form edits:</b> I would like the form to also take story submissions from users, so they can share their experiences. These submissions would then be posted on a Forum page on the website.
 
-Under construction: I would like to create a random fact generator for the under construction page. This would guide traffic back into the website with fun facts that linked to completed profiles.
+<b>Under construction edits:</b> I would like to create a random fact generator for the Under Construction page. This would guide traffic back into the website with fun facts that linked to completed profiles.
 
 ## Testing
 
